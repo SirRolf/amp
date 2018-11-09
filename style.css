@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family:'Century Gothic','Futura',san-serif;
+}
+
+iframe{
+  border: solid 1em pink;
+  border-left: 0;
+}
+
+#container{
+  width: 100%;
+  height: 800px;
+  display:grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 100%;
+}
+
+#myMenu{
+  background-color: pink;
+  color:white;
+  grid-column: 1;
+}
+
+#myMenu a{
+  color: white;
+  text-decoration: none;
+  border: solid 1px white;
+}
+
+#myMenu ol{
+  list-style-type: none;
+}
+
+#myIframe{
+  grid-column: 2/3;
+  width: 100%;
+  height: 100%;
+}
+
+#canvas{
+  overflow: hidden;
+}
